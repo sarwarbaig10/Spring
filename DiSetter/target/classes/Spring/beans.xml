@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+  <bean id="emp" class="com.wipro.Employee">
+  <property name="salary" value="4534"></property>
+  <property name="empid" value="2334"></property>
+  <property name="address" value="dgfs asdhg"></property>
+  <property name="name" value="Lkao"></property>
+  
+  </bean>
+  
+  </beans>
